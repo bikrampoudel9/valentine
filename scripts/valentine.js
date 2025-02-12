@@ -1,10 +1,6 @@
 const noBtn = document.getElementById("noBtn");
 const yesBtn = document.getElementById("yesBtn");
 const message = document.getElementById("romanticMessage");
-// Set initial position
-
-
-
 
 yesBtn.addEventListener("click", () => {
     document.querySelector(".valentine-box").style.display = "none"; // Hide question box
